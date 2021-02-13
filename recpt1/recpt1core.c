@@ -192,42 +192,45 @@ show_channels(void)
             fprintf(stderr, "%s", buf);
         fclose(f);
     }
-    else
+    else {
         fprintf(stderr, "13-62: Terrestrial Channels\n");
 
-    fprintf(stderr, "101ch: NHK BS1\n");
-    fprintf(stderr, "103ch: NHK BS Premium\n");
-    fprintf(stderr, "141ch: BS Nittele\n");
-    fprintf(stderr, "151ch: BS Asahi\n");
-    fprintf(stderr, "161ch: BS-TBS\n");
-    fprintf(stderr, "171ch: BS Japan\n");
-    fprintf(stderr, "181ch: BS Fuji\n");
-    fprintf(stderr, "191ch: WOWOW Prime\n");
-    fprintf(stderr, "192ch: WOWOW Live\n");
-    fprintf(stderr, "193ch: WOWOW Cinema\n");
-    fprintf(stderr, "200ch: Star Channel1\n");
-    fprintf(stderr, "201ch: Star Channel2\n");
-    fprintf(stderr, "202ch: Star Channel3\n");
-    fprintf(stderr, "211ch: BS11 Digital\n");
-    fprintf(stderr, "222ch: TwellV\n");
-    fprintf(stderr, "231ch: Housou Daigaku 1\n");
-    fprintf(stderr, "232ch: Housou Daigaku 2\n");
-    fprintf(stderr, "233ch: Housou Daigaku 3\n");
-    fprintf(stderr, "234ch: Green Channel\n");
-    fprintf(stderr, "236ch: BS Animax\n");
-    fprintf(stderr, "238ch: FOX bs238\n");
-    fprintf(stderr, "241ch: BS SkyPer!\n");
-    fprintf(stderr, "242ch: J SPORTS 1\n");
-    fprintf(stderr, "243ch: J SPORTS 2\n");
-    fprintf(stderr, "244ch: J SPORTS 3\n");
-    fprintf(stderr, "245ch: J SPORTS 4\n");
-    fprintf(stderr, "251ch: BS Tsuri Vision\n");
-    fprintf(stderr, "252ch: IMAGICA BS\n");
-    fprintf(stderr, "255ch: Nihon Eiga Senmon Channel\n");
-    fprintf(stderr, "256ch: Disney Channel\n");
-    fprintf(stderr, "258ch: Dlife\n");
-    fprintf(stderr, "C13-C63: CATV Channels\n");
-    fprintf(stderr, "CS2-CS24: CS Channels\n");
+        fprintf(stderr, "BS01_0: BS朝日\n");
+        fprintf(stderr, "BS01_1: BS-TBS\n");
+        fprintf(stderr, "BS01_2: BSテレ東\n");
+        fprintf(stderr, "BS03_0: WOWOWプライム\n");
+        fprintf(stderr, "BS03_1: NHK BSプレミアム\n");
+        fprintf(stderr, "BS03_2: ディズニーチャンネル\n");
+        fprintf(stderr, "BS05_0: WOWOWライブ\n");
+        fprintf(stderr, "BS05_1: WOWOWシネマ\n");
+        fprintf(stderr, "BS07_0: BS朝日 4K\n");
+        fprintf(stderr, "BS07_1: BSテレ東 4K\n");
+        fprintf(stderr, "BS07_2: BS日テレ 4K\n");
+        fprintf(stderr, "BS09_0: BS11\n");
+        fprintf(stderr, "BS09_1: スターチャンネル1\n");
+        fprintf(stderr, "BS09_2: TwellV\n");
+        fprintf(stderr, "BS11_0: BSスカパー!\n");
+        fprintf(stderr, "BS11_1: 放送大学\n");
+        fprintf(stderr, "BS13_0: BS日テレ\n");
+        fprintf(stderr, "BS13_1: BSフジ\n");
+        fprintf(stderr, "BS13_2: BSアニマックス\n");
+        fprintf(stderr, "BS15_0: NHK BS1\n");
+        fprintf(stderr, "BS15_1: スターチャンネル2/3\n");
+        fprintf(stderr, "BS17_0: NHK BS4K\n");
+        fprintf(stderr, "BS17_1: BS-TBS 4K\n");
+        fprintf(stderr, "BS17_2: BSフジ 4K\n");
+        fprintf(stderr, "BS19_0: J SPORTS 4\n");
+        fprintf(stderr, "BS19_1: J SPORTS 1\n");
+        fprintf(stderr, "BS19_2: J SPORTS 2\n");
+        fprintf(stderr, "BS19_3: J SPORTS 3\n");
+        fprintf(stderr, "BS21_0: WOWOWプラス\n");
+        fprintf(stderr, "BS21_2: グリーンチャンネル\n");
+        fprintf(stderr, "BS23_0: BS釣りビジョン\n");
+        fprintf(stderr, "BS23_1: 日本映画専門チャンネル\n");
+
+        fprintf(stderr, "C13-C63: CATV Channels\n");
+        fprintf(stderr, "CS2-CS24: CS Channels\n");
+        }
 }
 
 
