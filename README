@@ -37,6 +37,7 @@ BS09_1: スターチャンネル1
 BS09_2: TwellV
 BS11_0: BSスカパー!
 BS11_1: 放送大学
+BS11_2: BS釣りビジョン
 BS13_0: BS日テレ
 BS13_1: BSフジ
 BS13_2: BSアニマックス
@@ -50,9 +51,8 @@ BS19_1: J SPORTS 1
 BS19_2: J SPORTS 2
 BS19_3: J SPORTS 3
 BS21_0: WOWOWプラス
+BS21_1: 日本映画専門チャンネル
 BS21_2: グリーンチャンネル
-BS23_0: BS釣りビジョン
-BS23_1: 日本映画専門チャンネル
 
 C13-C63: CATV Channels
 
