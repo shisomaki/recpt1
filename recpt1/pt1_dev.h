@@ -105,6 +105,9 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {  10, CHTYPE_SATELLITE, 2, "234"},  /* 234ch：グリーンチャンネル */
     /* ch.23 */
     {  11, CHTYPE_SATELLITE, 0, "256"},  /* 256ch：ディズニーチャンネル */
+    {  11, CHTYPE_SATELLITE, 1, "265"},  /* 265ch：BSよしもと */
+    {  11, CHTYPE_SATELLITE, 2, "263"},  /* 263ch：BSJapanext */
+    {  11, CHTYPE_SATELLITE, 3, "260"},  /* 260ch：BS松竹東急 */
 
     {  12, CHTYPE_SATELLITE, 0, "CS2"},  /* ND2：
                                           * 296ch：TBSチャンネル1
