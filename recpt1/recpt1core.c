@@ -200,7 +200,6 @@ show_channels(void)
         fprintf(stderr, "BS01_2: BSテレ東\n");
         fprintf(stderr, "BS03_0: WOWOWプライム\n");
         fprintf(stderr, "BS03_1: NHK BSプレミアム\n");
-        fprintf(stderr, "BS03_2: ディズニーチャンネル\n");
         fprintf(stderr, "BS05_0: WOWOWライブ\n");
         fprintf(stderr, "BS05_1: WOWOWシネマ\n");
         fprintf(stderr, "BS07_0: BS朝日 4K\n");
@@ -227,6 +226,7 @@ show_channels(void)
         fprintf(stderr, "BS21_0: WOWOWプラス\n");
         fprintf(stderr, "BS21_1: 日本映画専門チャンネル\n");
         fprintf(stderr, "BS21_2: グリーンチャンネル\n");
+	fprintf(stderr, "BS23_0: ディズニーチャンネル\n");
 
         fprintf(stderr, "C13-C63: CATV Channels\n");
         fprintf(stderr, "CS2-CS24: CS Channels\n");

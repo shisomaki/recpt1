@@ -64,7 +64,6 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     /* ch.3 */
     {   1, CHTYPE_SATELLITE, 0, "191"},  /* 191ch：WOWOWプライム */
     {   1, CHTYPE_SATELLITE, 1, "103"},  /* 103ch：NHK BSプレミアム*/
-    {   1, CHTYPE_SATELLITE, 2, "256"},  /* 256ch：ディズニーチャンネル */
     /* ch.5 */
     {   2, CHTYPE_SATELLITE, 0, "192"},  /* 192ch：WOWOWライブ */
     {   2, CHTYPE_SATELLITE, 1, "193"},  /* 193ch：WOWOWシネマ */
@@ -105,7 +104,7 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {  10, CHTYPE_SATELLITE, 1, "255"},  /* 255ch：日本映画専門チャンネル */
     {  10, CHTYPE_SATELLITE, 2, "234"},  /* 234ch：グリーンチャンネル */
     /* ch.23 */
-    /* 空き (2021/06/01以降、使用予定)*/
+    {  11, CHTYPE_SATELLITE, 0, "256"},  /* 256ch：ディズニーチャンネル */
 
     {  12, CHTYPE_SATELLITE, 0, "CS2"},  /* ND2：
                                           * 296ch：TBSチャンネル1

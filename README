@@ -26,7 +26,6 @@ BS01_1: BS-TBS
 BS01_2: BSテレ東
 BS03_0: WOWOWプライム
 BS03_1: NHK BSプレミアム
-BS03_2: ディズニーチャンネル
 BS05_0: WOWOWライブ
 BS05_1: WOWOWシネマ
 BS07_0: BS朝日 4K
@@ -53,6 +52,7 @@ BS19_3: J SPORTS 3
 BS21_0: WOWOWプラス
 BS21_1: 日本映画専門チャンネル
 BS21_2: グリーンチャンネル
+BS23_0: ディズニーチャンネル
 
 C13-C63: CATV Channels
 
