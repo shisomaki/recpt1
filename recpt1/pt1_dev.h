@@ -76,7 +76,6 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   4, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スターチャンネル1 */
     {   4, CHTYPE_SATELLITE, 2, "222"},  /* 222ch：TwellV */
     /* ch.11 */
-    {   5, CHTYPE_SATELLITE, 0, "241"},  /* 241ch：BSスカパー！ */
     {   5, CHTYPE_SATELLITE, 1, "231"},  /* 231ch：放送大学キャンパスex */
     {   5, CHTYPE_SATELLITE, 1, "232"},  /* 232ch：放送大学キャンパスon */
     {   5, CHTYPE_SATELLITE, 1, "531"},  /* 531ch：放送大学ラジオ */
