@@ -63,7 +63,6 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   0, CHTYPE_SATELLITE, 2, "171"},  /* 171ch：BSテレ東 */
     /* ch.3 */
     {   1, CHTYPE_SATELLITE, 0, "191"},  /* 191ch：WOWOWプライム */
-    {   1, CHTYPE_SATELLITE, 1, "103"},  /* 103ch：NHK BSプレミアム*/
     /* ch.5 */
     {   2, CHTYPE_SATELLITE, 0, "192"},  /* 192ch：WOWOWライブ */
     {   2, CHTYPE_SATELLITE, 1, "193"},  /* 193ch：WOWOWシネマ */
@@ -85,12 +84,12 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   6, CHTYPE_SATELLITE, 1, "181"},  /* 181ch：BSフジ */
     {   6, CHTYPE_SATELLITE, 2, "236"},  /* 236ch：BSアニマックス */
     /* ch.15 */
-    {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHK BS1 */
-    {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHK BS1臨時 */
+    {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHK BS */
+    {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHK BS臨時 */
     {   7, CHTYPE_SATELLITE, 1, "201"},  /* 201ch：スターチャンネル2 */
     {   7, CHTYPE_SATELLITE, 1, "202"},  /* 202ch：スターチャンネル3 */
     /* ch.17 */
-    {   8, CHTYPE_SATELLITE, 0, "401"},  /* 401ch：NHK BS4K */
+    {   8, CHTYPE_SATELLITE, 0, "401"},  /* 401ch：NHK BSプレミアム 4K */
     {   8, CHTYPE_SATELLITE, 1, "461"},  /* 461ch：BS-TBS 4K */
     {   8, CHTYPE_SATELLITE, 2, "481"},  /* 481ch：BSフジ 4K */
     /* ch.19 */
@@ -149,8 +148,8 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
                                           * 342ch：ヒストリーチャンネル */
     {  19, CHTYPE_SATELLITE, 0, "CS16"}, /* ND16：
                                           * 290ch：TAKARAZUKA SKY STAGE
-                                          * 311ch：AXN
-                                          * 316ch：AXNミステリー
+                                          * 311ch：アクションチャンネル
+                                          * 316ch：ミステリーチャンネル
                                           * 321ch：スペースシャワーTVプラス
                                           * 333ch：AT-X
                                           * 353ch：BBCワールドニュース */
@@ -158,7 +157,7 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
                                           * 240ch：ムービープラスHD
                                           * 262ch：ゴルフネットワーク
                                           * 305ch：チャンネル銀河
-                                          * 314ch：女性チャンネル♪LaLa */
+                                          * 314ch：女性チャンネル♪LaLaTV */
     {  21, CHTYPE_SATELLITE, 0, "CS20"}, /* ND20：
                                           * 307ch：フジテレビONE
                                           * 308ch：フジテレビTWO
