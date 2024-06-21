@@ -73,8 +73,7 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   3, CHTYPE_SATELLITE, 2, "441"},  /* 441ch：BS日テレ 4K */
     /* ch.9 */
     {   4, CHTYPE_SATELLITE, 0, "211"},  /* 211ch：BS11 */
-    {   4, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スターチャンネル1 */
-    {   4, CHTYPE_SATELLITE, 2, "222"},  /* 222ch：TwellV */
+    {   4, CHTYPE_SATELLITE, 1, "222"},  /* 222ch：TwellV */
     /* ch.11 */
     {   5, CHTYPE_SATELLITE, 0, "231"},  /* 231ch：放送大学キャンパスex */
     {   5, CHTYPE_SATELLITE, 0, "232"},  /* 232ch：放送大学キャンパスon */
@@ -87,8 +86,7 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     /* ch.15 */
     {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHK BS */
     {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHK BS臨時 */
-    {   7, CHTYPE_SATELLITE, 1, "201"},  /* 201ch：スターチャンネル2 */
-    {   7, CHTYPE_SATELLITE, 1, "202"},  /* 202ch：スターチャンネル3 */
+    {   7, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スターチャンネル */
     /* ch.17 */
     {   8, CHTYPE_SATELLITE, 0, "401"},  /* 401ch：NHK BSプレミアム 4K */
     {   8, CHTYPE_SATELLITE, 1, "461"},  /* 461ch：BS-TBS 4K */
