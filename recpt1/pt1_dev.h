@@ -63,6 +63,7 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   0, CHTYPE_SATELLITE, 2, "171"},  /* 171ch：BSテレ東 */
     /* ch.3 */
     {   1, CHTYPE_SATELLITE, 0, "191"},  /* 191ch：WOWOWプライム */
+    {   1, CHTYPE_SATELLITE, 1, "103"},  /* 103ch：NHK （被災地向け放送） */
     /* ch.5 */
     {   2, CHTYPE_SATELLITE, 0, "192"},  /* 192ch：WOWOWライブ */
     {   2, CHTYPE_SATELLITE, 1, "193"},  /* 193ch：WOWOWシネマ */
