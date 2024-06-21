@@ -208,8 +208,8 @@ show_channels(void)
         fprintf(stderr, "BS09_0: BS11\n");
         fprintf(stderr, "BS09_1: スターチャンネル1\n");
         fprintf(stderr, "BS09_2: TwellV\n");
-        fprintf(stderr, "BS11_1: 放送大学\n");
-        fprintf(stderr, "BS11_2: BS釣りビジョン\n");
+        fprintf(stderr, "BS11_0: 放送大学\n");
+        fprintf(stderr, "BS11_1: BS釣りビジョン\n");
         fprintf(stderr, "BS13_0: BS日テレ\n");
         fprintf(stderr, "BS13_1: BSフジ\n");
         fprintf(stderr, "BS13_2: BSアニマックス\n");
