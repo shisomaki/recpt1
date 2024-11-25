@@ -76,12 +76,13 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   4, CHTYPE_SATELLITE, 0, "211"},  /* 211ch：BS11 */
     {   4, CHTYPE_SATELLITE, 1, "222"},  /* 222ch：TwellV */
     /* ch.11 */
-    {   5, CHTYPE_SATELLITE, 0, "231"},  /* 231ch：放送大学キャンパスex */
-    {   5, CHTYPE_SATELLITE, 0, "232"},  /* 232ch：放送大学キャンパスon */
-    {   5, CHTYPE_SATELLITE, 0, "531"},  /* 531ch：放送大学ラジオ */
+    // 11月11日以降空き
     /* ch.13 */
     {   6, CHTYPE_SATELLITE, 0, "141"},  /* 141ch：BS日テレ */
     {   6, CHTYPE_SATELLITE, 1, "181"},  /* 181ch：BSフジ */
+    {   6, CHTYPE_SATELLITE, 2, "231"},  /* 231ch：放送大学キャンパスex */
+    {   6, CHTYPE_SATELLITE, 2, "232"},  /* 232ch：放送大学キャンパスon */
+    {   6, CHTYPE_SATELLITE, 2, "531"},  /* 531ch：放送大学ラジオ */
     /* ch.15 */
     {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHK BS */
     {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHK BS臨時 */
