@@ -86,7 +86,8 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     /* ch.15 */
     {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHK BS */
     {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHK BS臨時 */
-    {   7, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スターチャンネル */
+    {   7, CHTYPE_SATELLITE, 1, "201"},  /* 201ch：BS10スターチャンネル */
+    {   7, CHTYPE_SATELLITE, 2, "200"},  /* 200ch：BS10 */
     /* ch.17 */
     {   8, CHTYPE_SATELLITE, 0, "401"},  /* 401ch：NHK BSプレミアム 4K */
     {   8, CHTYPE_SATELLITE, 1, "461"},  /* 461ch：BS-TBS 4K */
@@ -103,7 +104,6 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     /* ch.23 */
     {  11, CHTYPE_SATELLITE, 0, "256"},  /* 256ch：ディズニーチャンネル */
     {  11, CHTYPE_SATELLITE, 1, "265"},  /* 265ch：BSよしもと */
-    {  11, CHTYPE_SATELLITE, 2, "263"},  /* 263ch：BSJapanext */
     {  11, CHTYPE_SATELLITE, 3, "260"},  /* 260ch：BS松竹東急 */
 
     {  12, CHTYPE_SATELLITE, 0, "CS2"},  /* ND2：
